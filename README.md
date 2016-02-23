@@ -8,4 +8,6 @@ No idea how often I'll update this... Just gonna *__DO IT__*!
 
 ### Projects
 
-Project 01 - TallyCounter
+Project 01 - [TallyCounter](https://github.com/senakamura/thisNthSwiftProject/tree/master/P01-TallyCounter) : *Completed Feb. 22, 2016*
+
+Project 02 - *thinking about one... (Feb.22)*
