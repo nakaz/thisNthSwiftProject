@@ -9,17 +9,33 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  var Counter = 0;
 
+  @IBOutlet weak var counterLabel: UILabel!
+  
+  @IBOutlet weak var navBar: UINavigationItem!
   override func viewDidLoad() {
+    counterLabel.text = String(Counter)
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  @IBAction func increment() {
+    Counter++
+    counterLabel.text = String(Counter)
   }
 
+  @IBAction func decrement() {
+    if (Counter > 0) {
+      Counter--
+    }
+    
+    counterLabel.text = String(Counter)
+  }
 
+  @IBAction func resetCounter() {
+    Counter = 0
+    counterLabel.text = String(Counter)
+  }
 }
 
