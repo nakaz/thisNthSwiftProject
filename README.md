@@ -10,4 +10,6 @@ No idea how often I'll update this... Just gonna *__DO IT__*!
 
 Project 01 - [TallyCounter](https://github.com/senakamura/thisNthSwiftProject/tree/master/P01-TallyCounter) : *Completed Feb. 22, 2016*
 
+![Alt text](https://github.com/senakamura/thisNthSwiftProject/blob/master/P01-TallyCounter/TallyCounter.gif)
+
 Project 02 - *thinking about one... (Feb.22)*
